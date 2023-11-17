@@ -1,0 +1,84 @@
+<div class="conatiner m-5">
+  <div class="row">
+    <div class="col-md-12">
+      <h2 class="mb-5">Add New Product</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12" style="color: green;">
+        <p>{{addProductMessage}}</p>
+    </div>
+  </div>
+  <form #addProductForm="ngForm" (ngSubmit)="addProduct(addProductForm.value)" >
+    <div class="row">
+        <div class="col-md-8">
+          <div class="mb-3">
+            <input
+              type="text"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="Enter Product Name"
+              name="productName"
+              ngModel
+            />
+          </div>
+          <div class="mb-3">
+            <input
+              type="text"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="Enter Product Price"
+              name="productPrice"
+              ngModel
+            />
+          </div>
+          <div class="mb-3">
+            <input
+              type="text"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="Enter Product Color"
+              name="productColor"
+              ngModel
+            />
+          </div>
+          <div class="mb-3">
+            <input
+              type="text"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="Enter Product Category"
+              name="productCategory"
+              ngModel
+            />
+          </div>
+          <div class="mb-3">
+            <input
+              type="text"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="Enter Product Image URL"
+              name="productImageUrl"
+              ngModel
+            />
+          </div>
+          <div class="mb-3">
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+              placeholder="Enter Product Description"
+              name="productDesc"
+              ngModel
+            ></textarea>
+          </div>
+          
+        </div>
+      </div>
+      <div class="row">
+        <div class="col- d-3">
+            <button type="submit" class="btn btn-primary">Add Product</button>
+        </div>
+      </div>
+  </form>
+</div>

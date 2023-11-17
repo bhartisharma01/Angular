@@ -1,0 +1,25 @@
+.productImg img {
+    height: auto;
+    width: 360px;
+}
+.productCard {
+    text-align: center;
+    border: 1px solid #d7d7d7;
+    padding: 20px 0 0 0;
+    width: 430px;
+    margin: 0 0 0 20px;
+}
+.productImg {
+    border-bottom: 1px solid #d7d7d7;
+    padding: 20px;
+}
+.productViewDetails {
+    border-top: 1px solid #d7d7d7;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+a.viewDetail {
+    text-decoration: none;
+    color: #3f51b5;
+}

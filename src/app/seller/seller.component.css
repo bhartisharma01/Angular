@@ -1,0 +1,14 @@
+.showLoginSignupForm{
+    background: #b0d0ff;
+    border: 1px solid #0d6efd;
+    text-decoration: none;
+    color: #000;
+    border-radius: 5px;
+}
+.errorMsg{
+    /* border: 1px solid red;
+    background: #ffbdbd;
+    padding: 10px;
+    border-radius: 5px; */
+    color: red;
+}

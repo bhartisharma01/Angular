@@ -1,0 +1,85 @@
+<div class="conatiner m-5">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="mb-5">Update Product</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12" style="color: green;">
+          <p>{{updateProductMessage}}</p>
+      </div>
+    </div>
+    <form #updateProductForm="ngForm" (ngSubmit)="updateProduct(updateProductForm.value)" >
+      <div class="row">
+          <div class="col-md-8">
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Enter Product Name"
+                name="productName"
+                ngModel="{{productData?.productName}}"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Enter Product Price"
+                name="productPrice"
+                ngModel="{{productData?.productPrice}}"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Enter Product Color"
+                name="productColor"
+                ngModel="{{productData?.productColor}}"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Enter Product Category"
+                name="productCategory"
+                ngModel="{{productData?.productCategory}}"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Enter Product Image URL"
+                name="productImageUrl"
+                ngModel="{{productData?.productImageUrl}}"
+              />
+            </div>
+            <div class="mb-3">
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+                placeholder="Enter Product Description"
+                name="productDesc"
+                ngModel="{{productData?.productDesc}}"
+              ></textarea>
+            </div>
+            
+          </div>
+        </div>
+        <div class="row">
+          <div class="col- d-3">
+              <button type="submit" class="btn btn-primary">Update Product</button>
+          </div>
+        </div>
+    </form>
+  </div>
+  

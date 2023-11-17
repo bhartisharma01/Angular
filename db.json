@@ -1,0 +1,104 @@
+{
+  "seller": [
+    {
+      "name": "Bharti Sharma",
+      "email": "bharti@gmail.com",
+      "password": "bharti@123",
+      "id": 1
+    },
+    {
+      "name": "Harshit Sharma",
+      "email": "harshit@gmail.com",
+      "password": "harshit@123",
+      "id": 2
+    },
+    {
+      "name": "prachi",
+      "email": "p@gmail.com",
+      "password": "p@123",
+      "id": 3
+    },
+    {
+      "name": "priyanka",
+      "email": "pri@gmail.com",
+      "password": "pri@123",
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "productName": "Redmi 9 prime",
+      "productPrice": "12000",
+      "productColor": "Sea Green",
+      "productCategory": "Mobiles",
+      "productImageUrl": "https://www.dealntech.com/wp-content/uploads/2020/08/Redmi-9-Prime.jpg",
+      "productDesc": "4GB RAM 128GB Storage",
+      "id": 1
+    },
+    {
+      "productName": "Noise Pulse 2 ",
+      "productPrice": "1799",
+      "productColor": "Black",
+      "productCategory": "Smart Watch",
+      "productImageUrl": "https://m.media-amazon.com/images/I/41UoKKWuxjL._SX300_SY300_QL70_FMwebp_.jpg",
+      "productDesc": "Max 1.85 Display, Bluetooth Calling Smart",
+      "id": 2
+    },
+    {
+      "productName": "Samsung ",
+      "productPrice": "15000",
+      "productColor": "golden",
+      "productCategory": "Mobiles",
+      "productImageUrl": "https://m.media-amazon.com/images/I/61ODgTm9J6L._SX679_.jpg",
+      "productDesc": "Blue color 4GB RAM 64GB Storage",
+      "id": 3
+    },
+
+    {
+      "productName": "TOZO T6 True Wireless Earbuds ",
+      "productPrice": "2699",
+      "productColor": "Black",
+      "productCategory": "Earbuds",
+      "productImageUrl": "https://m.media-amazon.com/images/I/616eKVWRr-L._SX522_.jpg",
+      "productDesc": "Wireless Charging Case, IPX8 Waterproof",
+      "id": 4
+    },
+    {
+      "productName": "Redmi 9 prime",
+      "productPrice": "12000",
+      "productColor": "Sea Green",
+      "productCategory": "Mobiles",
+      "productImageUrl": "https://www.dealntech.com/wp-content/uploads/2020/08/Redmi-9-Prime.jpg",
+      "productDesc": "4GB RAM 128GB Storage",
+      "id": 5
+    },
+    {
+      "productName": "Samsung ",
+      "productPrice": "15000",
+      "productColor": "golden",
+      "productCategory": "Mobiles",
+      "productImageUrl": "https://m.media-amazon.com/images/I/61ODgTm9J6L._SX679_.jpg",
+      "productDesc": "Blue color 4GB RAM 64GB Storage g50 heliotek",
+      "id": 6
+    },
+    {
+      "productName": "boAt Rockerz 370 On Ear Bluetooth Headphones",
+      "productPrice": "1180",
+      "productColor": "Black",
+      "productCategory": "Headphones",
+      "productImageUrl": "https://m.media-amazon.com/images/I/41Beq4WLggL._SX300_SY300_QL70_FMwebp_.jpg",
+      "productDesc": "Upto 12 Hours Playtime, Cozy Padded Earcups and Bluetooth v5.0",
+      "id": 7    },
+    {
+      "productName": "Redmi 9 prime",
+      "productPrice": "12000",
+      "productColor": "Sea Green",
+      "productCategory": "Mobiles",
+      "productImageUrl": "https://www.dealntech.com/wp-content/uploads/2020/08/Redmi-9-Prime.jpg",
+      "productDesc": "4GB RAM 128GB Storage",
+      "id": 8
+    }
+   
+   
+  ]
+}
